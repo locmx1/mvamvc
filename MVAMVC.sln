@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{71414572-CA04-4183-9DB1-04F1EE026B36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{593A4C40-9805-4710-A677-8971F5085076}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MVAMVC", "src\MVAMVC\MVAMVC.xproj", "{75CC646D-F2CB-4CCA-A61B-B1347F4CA1D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75CC646D-F2CB-4CCA-A61B-B1347F4CA1D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75CC646D-F2CB-4CCA-A61B-B1347F4CA1D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75CC646D-F2CB-4CCA-A61B-B1347F4CA1D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75CC646D-F2CB-4CCA-A61B-B1347F4CA1D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{75CC646D-F2CB-4CCA-A61B-B1347F4CA1D6} = {71414572-CA04-4183-9DB1-04F1EE026B36}
+	EndGlobalSection
+EndGlobal
